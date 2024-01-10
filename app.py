@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model("/content/my_model.hdf5")
+model = load_model("my_model.hdf5")
 
 # Function to preprocess and make predictions
 def process_image(image_path, target_size=(180, 180)):
